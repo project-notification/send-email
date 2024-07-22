@@ -3,8 +3,9 @@ import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 
 export const handler: SQSHandler = async (event: SQSEvent) => {
   const body = event.Records[0]!.body;
+  console.log('body:', body);
   const message = JSON.parse(body) as ReservationMessage;
-
+  console.log('message:', message);
   const sesClient = new SESClient();
 
   const githubRepoUrl = 'https://github.com/project-notification/readme/issues';
