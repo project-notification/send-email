@@ -7,6 +7,7 @@ export const handler: SQSHandler = async (event: SQSEvent) => {
   const project = message.project;
   const sesClient = new SESClient();
 
+  console.log('event:', event);
   console.log('message:', message);
 
   const githubRepoUrl = 'https://github.com/project-notification/readme/issues';
