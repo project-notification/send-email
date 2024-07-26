@@ -43,7 +43,7 @@ export const handler: SQSHandler = async (event: SQSEvent) => {
             <p>더 이상 이메일 알림을 받지 않으려면, 아래 GitHub 저장소에서 귀하의 이슈를 닫아주세요:</p>
             <a href="${githubRepoUrl}" style="color: #2196F3; text-decoration: none;">GitHub 저장소 방문하기</a>
           </div>
-          <p style="margin-top: 20px;">감사합니다.</p>
+          <p style="margin-top: 20px;">이 알림이 도움이 되셨다면 Star 한번씩만 부탁드립니다&gt;&lt;</p>
         </div>
       </body>
     </html>
