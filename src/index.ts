@@ -16,7 +16,6 @@ export const handler: SQSHandler = async (event: SQSEvent) => {
       <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
         <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
           <h1 style="color: #4a4a4a;">새로운 프로젝트 알림</h1>
-          <p>안녕하세요,</p>
           <p>새로운 프로젝트가 등록되었습니다:</p>
           <div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px;">
             <h2 style="color: #2c3e50; margin-top: 0;">${project.title}</h2>
