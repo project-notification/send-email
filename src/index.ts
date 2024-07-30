@@ -37,7 +37,6 @@ export const handler: SQSHandler = async (event: SQSEvent) => {
           `
               : ''
           }
-          <p style="margin-top: 20px;">이 알림이 도움이 되셨기를 바랍니다.</p>
           <div style="margin-top: 30px; padding: 15px; background-color: #e7f3fe; border-left: 5px solid #2196F3; border-radius: 4px;">
             <p><strong>알림 구독 해제 방법:</strong></p>
             <p>더 이상 이메일 알림을 받지 않으려면, 아래 GitHub 저장소에서 귀하의 이슈를 닫아주세요:</p>
