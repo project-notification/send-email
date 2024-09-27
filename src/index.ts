@@ -64,7 +64,7 @@ export const handler: SQSHandler = async (event: SQSEvent) => {
         Data: `새 프로젝트 알림: ${project.title}`,
       },
     },
-    Source: 'project-notification@leemhoon.com',
+    Source: 'project-notification1@leemhoon.com',
   });
 
   await sesClient.send(command);
